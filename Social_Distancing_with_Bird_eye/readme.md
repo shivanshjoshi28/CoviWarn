@@ -1,4 +1,5 @@
-# CoviWarn - Social Distancing Detector( GUI Based with ROI and Bid eye features )
+# CoviWarn - Social Distancing Detector ( GUI )
+## ROI and Bird eye view features for calculating distance 
    Tool to monitor social distancing from CCTV, videos using Python, Deep learning, Computer Vision. This tool can 
    automatically estimate interpersonal distance from uncalibrated RGB cameras. Can be used at public places and workplace.
 
