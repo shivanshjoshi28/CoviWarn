@@ -1,4 +1,5 @@
-# CoviWarn 
+# CoviWarn - Social Distancing Detector ( GUI )
+## Face mask detection features also added 
 
 This project aims at monitoring people violating Social Distancing over video footage coming from CCTV Cameras. Uses YOLOv3 along with Euclidian method to find the distance. A Face Mask Classifier model (ResNet50) is trained and deployed for identifying people not wearing a face mask. For aiding the training process, augmented masked faces are generated (using facial landmarks) and blurring effects (frequently found in video frames) are also imitated.
 
