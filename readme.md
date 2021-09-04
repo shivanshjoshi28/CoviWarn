@@ -1,1 +1,1 @@
-ROI Features added
+# CoviWarn - Social Distancing Detector
