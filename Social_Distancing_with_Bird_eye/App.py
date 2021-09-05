@@ -22,6 +22,7 @@ from datetime import datetime
 from contextlib import contextmanager, redirect_stdout
 from io import StringIO
 import requests
+import streamlit.components.v1
 from clint.textui import progress
 
 
@@ -252,6 +253,8 @@ def calculate_social_distancing(cap, net, output_dir, output_vid, ln1,image_plac
      
     vs.release()
     cv2.destroyAllWindows() 
+        
+
 
 
 @contextmanager
@@ -347,3 +350,6 @@ if __name__== "__main__":
         output_dir="output/"
         output_vid="output_vid/"
         calculate_social_distancing(vs, net_yl, output_dir, output_vid, ln1,image_placeholder1,image_placeholder2,image_placeholder3)
+    st.success("Design & Developed By Shivansh Joshi")
+    # Render the h1 block, contained in a frame of size 1000*250
+    components.html("<html><body>Created by &#10084 <a href='https://github.com/shivanshjoshi28/CoviWarn'> Shivansh Joshi</a></h3></body></html>", width=10000, height=250)
