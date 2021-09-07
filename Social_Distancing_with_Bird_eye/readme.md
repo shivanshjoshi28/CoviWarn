@@ -15,7 +15,10 @@
    
 
    ## Demo:
-   https://user-images.githubusercontent.com/58811384/132108463-03cab3ec-6cdb-424a-8608-09a89cc1c0ad.mp4
+
+https://user-images.githubusercontent.com/58811384/132409257-b8899aa3-642f-4d1c-b87f-212e72181b38.mp4
+
+
 
 
 ## Requirements:
@@ -34,7 +37,7 @@
     
 ## Usage:
      Run the command below after coming to this directory
-     *  pip install -r requirements.txt
+     *  pip install -r requirements_pc.txt
      *  streamlit run App.py
             
 
