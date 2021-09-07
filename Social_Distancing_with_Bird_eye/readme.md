@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/58811384/132409257-b8899aa3-642f-4d1c-
 ## Usage:
      Run the command below after coming to this directory
      *  pip install -r requirements_pc.txt
-     *  streamlit run App.py
+     *  streamlit run app.py
             
 
 ## Idea Credits:
